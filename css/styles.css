@@ -216,3 +216,70 @@ body {
   border-radius: 32px;
   box-shadow: 0 8px 32px rgba(0,0,0,0.10);
 }
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin: 80px 10vw;
+}
+.contact-left h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 340px;
+}
+.contact-form label {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 4px;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 1rem;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  resize: none;
+}
+.contact-form textarea {
+  min-height: 80px;
+}
+.footer {
+  text-align: center;
+  padding: 64px 0 32px 0;
+  background: #fff;
+}
+.footer-logo {
+  color: #4f4fff;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.footer-desc {
+  color: #888;
+  font-size: 1.1rem;
+  margin-bottom: 24px;
+}
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.footer-nav a {
+  color: #888;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+.footer-nav a:hover {
+  color: #4f4fff;
+}
